@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/10/2018, 05:36:01 PM
+    Author     : ethan_000
+*/
+body{
+    font-family: Arial; background-color: lightslategrey; box-sizing: border-box;
+}
+form{
+    background-color: mediumspringgreen;
+    border-radius: 5px;
+    color: blue;
+    padding: 10px; 
+    margin: 0 auto;
+    width: 250px;
+}
+input, textarea {
+    border: 0;
+    outline: none;
+    width: 250px;
+}
+.field{
+    border: solid 1px blue;
+    padding: 10px;
+}
+.field:focus{
+    border-color: orangered;
+}
+.nop{
+    border-radius: 5px;
+    background-color: orangered;
+    color: aquamarine;
+    padding: 20px 10px; 
+}
